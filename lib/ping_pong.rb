@@ -14,7 +14,7 @@ class Fixnum
       elsif number.%(5).eql?(0)
         count_up_array[index] = 'pong'
       elsif number.%(3).eql?(0)
-          count_up_array[index] = 'ping'
+        count_up_array[index] = 'ping'
       end
     end
 
